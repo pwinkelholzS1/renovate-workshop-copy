@@ -14,7 +14,7 @@ jobs:
       - uses: earthly/actions/setup-earthly@v1
         with:
           version: v0.7.9
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@0717577d45739eb3c851188b29f50ed6c0b2194e # v2
       - name: Earthly version
         run: earthly --version
       - name: Run CI pipeline (tests)
