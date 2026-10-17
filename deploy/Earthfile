@@ -2,7 +2,7 @@ VERSION 0.7
 
 PROJECT earthly-sa/earthly-vs-gha
 
-FROM ubuntu:23.10
+FROM ubuntu:26.04@sha256:c098726dd9b9733f3e885f8de0ef375206a311b0a317eadc40d347b1115fb944
 WORKDIR /deploy
 
 deps:
