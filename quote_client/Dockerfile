@@ -1,4 +1,4 @@
-FROM node:19.5.0-buster-slim 
+FROM node:19.5.0-buster-slim@sha256:871673a1451a2d0a8b0e2a08d1d89a5f6f3b91d158eae8d4d3aa7f77bb7b5c3f 
 
 WORKDIR /app
 COPY package.json ./
