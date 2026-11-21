@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.11@sha256:55c475496e35ad8d898659c85f92b42d3b1c58f25f5d79023baf0840b0b4a462
 
 WORKDIR /app
 COPY requirements.txt ./
