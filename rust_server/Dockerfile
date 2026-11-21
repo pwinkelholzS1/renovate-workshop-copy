@@ -1,4 +1,4 @@
-FROM  rust:1.71
+FROM  rust:1.100@sha256:223cc32ddca8f3ee90c436dbc94b6b5f052ea7f9653c5201e9612f08ad7d21b8
 # Set destination for COPY
 WORKDIR /app
 
